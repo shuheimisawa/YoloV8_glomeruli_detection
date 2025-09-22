@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+!runs/detect/*/weights/best.pt
+!runs/detect/*/weights/last.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (too large for git)
+Data/raw_slides/*.svs
+Data/raw_slides/*.ndpi
+Data/raw_slides/*.scn
+Data/raw_slides/*.vms
+*.tiff
+*.tif
+
+# YOLO dataset images (keep structure, not images)
+yolo_dataset/*/images/*.jpg
+yolo_dataset/*/images/*.png
+yolo_dataset_complete/*/images/*.jpg
+yolo_dataset_complete/*/images/*.png
+
+# Results and outputs
+*_results/
+*_test_results/
+wsi_inference_results/
+clean_inference_test_results/
+
+# Large model files (keep only best weights)
+yolo11n.pt
+yolov8*.pt
+!yolov8m.pt
+
+# Logs
+*.log
+logs/
+*.txt
+!README.md
+
+# Temporary files
+*.tmp
+*.temp
+
+# Pickle files
+*.pkl
+*.pickle
