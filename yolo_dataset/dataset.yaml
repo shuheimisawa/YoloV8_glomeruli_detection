@@ -1,0 +1,9 @@
+# YOLO dataset configuration
+path: /home/smisawa/projects/two-stage/yolo_dataset
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+nc: 2  # number of classes
+names: ['normal', 'sclerotic']  # class names
